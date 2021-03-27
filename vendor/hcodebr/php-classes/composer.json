@@ -1,0 +1,22 @@
+{
+    "name": "hcodebr/php-classes",
+    "minimum-stability": "dev",
+    "type": "library",
+    "description": "Classes PHP",
+    "homepage": "https://github.com/marcotulio21mm/php-classes",
+    "authors": [
+        {
+            "name": "Marco Tulio",
+            "email": "marcotulio21mm@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.13",
+        "rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}
